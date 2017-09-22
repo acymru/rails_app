@@ -1,0 +1,15 @@
+<div class="container">
+<h1>
+	<%= @article.title %>
+</h1>
+<div class="row">
+	<div class="col-md-12">
+		<p>
+			<%= @article.text %>
+		</p>
+		<div class="btn-group">			
+			<button class="btn btn-default"><%= link_to 'Edit', edit_article_path(@article) %></button>
+			<button class="btn btn-default"><%= link_to 'View Listing', articles_path %></button>
+		</div>
+	</div>
+</div>

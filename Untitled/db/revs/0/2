@@ -1,0 +1,31 @@
+id: 0-1.0-2.r2/0
+type: dir
+pred: 0-1.0.r1/164013
+count: 1
+text: 1 163286 714 714 6eb704942a8f7651673fcfd25ef237f4
+cpath: /branch
+copyfrom: 1 /first_app
+
+PLAIN
+K 6
+branch
+V 16
+dir 0-1.0-2.r2/0
+K 9
+first_app
+V 19
+dir 0-1.0.r1/164013
+END
+ENDREP
+id: 0.0.r2/242
+type: dir
+pred: 0.0.r1/164197
+count: 2
+text: 2 153 76 76 8ddb14a7f2db25a4810aea8061719ebb
+cpath: /
+copyroot: 0 /
+
+0-1._0.t1-1 add-dir false false /branch
+1 /first_app
+
+242 371
