@@ -65,5 +65,6 @@ gem 'autoprefixer-rails'
 gem 'mysql2', '~> 0.4.9'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'seed_dump'
 # gem 'faker', github: 'stympy/faker'
 #end pix custom

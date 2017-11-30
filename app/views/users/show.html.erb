@@ -1,0 +1,13 @@
+<h1>Author Profile</h1>
+<div class="col-md-12">
+	<p id="notice"><%= notice %></p>
+		<h2><%= @user.name %></h2>
+	<p>
+	  <strong>Email:</strong>
+	  <%= @user.email %>
+	</p>
+	<div class="btn-group" role="group">
+		<%= link_to 'Edit Profile', edit_user_path(@user), :class=>"btn btn-primary" %>
+		<%= link_to 'All Authors', users_path, :class=>"btn btn-default" %>
+	</div>
+</div>

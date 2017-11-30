@@ -7,6 +7,7 @@
 		<p>
 			<%= @article.text %>
 		</p>
+		<p><%= @article.user_id %></p>
 		<div class="btn-group">			
 			<button class="btn btn-default"><%= link_to 'Edit', edit_article_path(@article) %></button>
 			<button class="btn btn-default"><%= link_to 'View Listing', articles_path %></button>

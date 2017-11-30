@@ -53,6 +53,7 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   # pix custom add, from https://mattbrictson.com/lightning-fast-sass-reloading-in-rails
+  # to start guard - "bundle exec guard"
   # Automatically inject JavaScript needed for LiveReload
   config.middleware.insert_after(ActionDispatch::Static, Rack::LiveReload)
 end

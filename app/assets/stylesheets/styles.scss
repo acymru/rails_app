@@ -4,8 +4,8 @@ $secondary: #377F8F;
 $body_top_padding: 50px;
 
 html {
-  	position: relative;
-  	min-height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 body {
 	padding-top:$body_top_padding;
@@ -19,19 +19,22 @@ body {
 }
 .navbar-default .navbar-brand:hover, 
 .navbar-default .navbar-brand:focus {
-	color:inherit;
+  color:inherit;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	background:$secondary;
 	color:#fff;
 }
+a.btn-primary {
+  color:#fff;
+}
 
 footer {
-  	position: absolute;
-  	padding-top:1rem;
-  	bottom: 0;
-  	width: 100%;
-  	background:$primary;
+	position: absolute;
+	padding-top:1rem;
+	bottom: 0;
+	width: 100%;
+	background:$primary;
 	color:#fff;
   ul {
     list-style: none;

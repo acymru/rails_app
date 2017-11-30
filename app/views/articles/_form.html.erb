@@ -19,6 +19,10 @@
 		<%= form.label :text %>
 		<%= form.text_area :text, :class =>'form-control' %>
 	</div>
+	<div class="field">
+	    <%= form.label :user_id %>
+	    <%= form.number_field :user_id, id: :article_user_id %>
+	  </div>
 	<div class="btn-group" style="margin-top:20px;" role="group">
 		<%= form.submit :class =>'btn btn-primary' %>
 <% end %>

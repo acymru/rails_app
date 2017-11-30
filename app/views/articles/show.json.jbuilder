@@ -1,0 +1,1 @@
+json.partial! "articles/article", micropost: @article

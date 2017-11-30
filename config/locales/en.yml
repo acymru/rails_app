@@ -30,4 +30,5 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  title: "Authors Unleashed"
   hello: "Damn glad to see you"
